@@ -1,4 +1,4 @@
-import Another from './Another.md'
+import Another from './another.md'
 
 import About from './about'
 

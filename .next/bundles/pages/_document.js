@@ -1070,16 +1070,17 @@ module.exports = hash;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(process) {/* unused harmony export css */
-/* unused harmony export keyframes */
-/* unused harmony export injectGlobal */
-/* unused harmony export isStyledComponent */
-/* unused harmony export consolidateStreamedStyles */
-/* unused harmony export ThemeProvider */
-/* unused harmony export withTheme */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ServerStyleSheet; });
-/* unused harmony export StyleSheetManager */
-/* unused harmony export __DO_NOT_USE_OR_YOU_WILL_BE_HAUNTED_BY_SPOOKY_GHOSTS */
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* WEBPACK VAR INJECTION */(function(process) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "css", function() { return css; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "keyframes", function() { return keyframes; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "injectGlobal", function() { return injectGlobal; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "isStyledComponent", function() { return isStyledComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "consolidateStreamedStyles", function() { return consolidateStreamedStyles; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ThemeProvider", function() { return ThemeProvider; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "withTheme", function() { return wrapWithTheme; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ServerStyleSheet", function() { return ServerStyleSheet; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StyleSheetManager", function() { return StyleSheetManager; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__DO_NOT_USE_OR_YOU_WILL_BE_HAUNTED_BY_SPOOKY_GHOSTS", function() { return __DO_NOT_USE_OR_YOU_WILL_BE_HAUNTED_BY_SPOOKY_GHOSTS; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_is_plain_object__ = __webpack_require__("./node_modules/is-plain-object/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_is_plain_object___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_is_plain_object__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_stylis__ = __webpack_require__("./node_modules/stylis/stylis.js");
@@ -3382,7 +3383,7 @@ var injectGlobal = _injectGlobal(stringifyRules, css);
 var styled = _styled(StyledComponent, constructWithOptions);
 
 
-/* harmony default export */ __webpack_exports__["b"] = (styled);
+/* harmony default export */ __webpack_exports__["default"] = (styled);
 //# sourceMappingURL=styled-components.browser.es.js.map
 
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/process/browser.js")))
@@ -6124,7 +6125,7 @@ function (_Document) {
           fileName: _jsxFileName,
           lineNumber: 18
         }
-      }, "My page"), this.props.styleTags), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", {
+      }, "My Page Title"), this.props.styleTags), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 21
@@ -6145,7 +6146,7 @@ function (_Document) {
     key: "getInitialProps",
     value: function getInitialProps(_ref) {
       var renderPage = _ref.renderPage;
-      var sheet = new __WEBPACK_IMPORTED_MODULE_2_styled_components__["a" /* ServerStyleSheet */]();
+      var sheet = new __WEBPACK_IMPORTED_MODULE_2_styled_components__["ServerStyleSheet"]();
       var page = renderPage(function (App) {
         return function (props) {
           return sheet.collectStyles(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(App, _extends({}, props, {
@@ -6189,7 +6190,7 @@ function (_Document) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/_document.js");
@@ -6197,7 +6198,7 @@ module.exports = __webpack_require__("./pages/_document.js");
 
 /***/ })
 
-},[1])
+},[2])
           return { page: comp.default }
         })
       ;

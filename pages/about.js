@@ -1,14 +1,10 @@
-import styled from 'styled-components';
 import Layout from '../components/Layout';
+import sys from 'system-components';
 
-const Container = styled.div`
-  border: 5px solid #eee;
-  padding: 10px;
-
-  & h3 {
-    color: red;
-  }
-`;
+const Container = sys({
+  p: 2,
+  bg: '#f4f4f4',
+});
 
 export default () => (
   <Layout>
